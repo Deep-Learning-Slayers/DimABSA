@@ -1,0 +1,206 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+conda_env/
+.conda/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+**/.ipynb_checkpoints/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+lightning_logs/
+tb_logs/
+tensorboard_logs/
+
+# TensorFlow
+*.h5
+*.keras
+*.pb
+saved_model/
+checkpoint/
+model_checkpoint/
+tf_logs/
+
+# Hugging Face
+transformers_cache/
+.cache/
+huggingface/
+
+# Models and Weights
+/models/
+*.bin
+*.model
+*.weights
+*.onnx
+pretrained/
+fine_tuned/
+trained_models/
+!src/models/
+
+# Datasets and Data Files
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.hdf5
+raw_data/
+processed_data/
+collected_data/
+scraped_data/
+
+# Training Artifacts
+runs/
+experiments/
+logs/
+wandb/
+mlruns/
+outputs/*
+!outputs/.gitkeep
+results/
+predictions/
+embeddings/
+features/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.blg
+*.tex
+*.dvi
+*.ps
+reports/*
+!reports/.gitkeep
+!reports/*/
+!reports/**/*.pdf
+!reports/*.pdf
+
+# IDE and Editor
+.vscode/
+.claude/
+.idea/
+openspec/
+*.swp
+*.swo
+*~
+.DS_Store
+.spyderproject
+.spyproject
+.ropeproject
+*.code-workspace
+CLAUDE.md
+AGENTS.md
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.yaml
+config.yaml
+credentials.json
+
+# Scraped Data
+*.html
+*.xml
+selenium_cache/
+browser_cache/
+
+# NLP Resources
+lexicons/
+*.lexicon
+nltk_data/
+spacy_models/
+NRC-VAD-Lexicon-v2.1/*
+!NRC-VAD-Lexicon-v2.1/.gitkeep
+
+# Miscellaneous
+*.tmp
+*.temp
+*.bak
+*.backup
+.cache/
+tmp/
+temp/
+
+# Competition Data (if you want to keep it private)
+semeval_data/
+competition_data/
+test_data/
+DimABSA2026/*
+!DimABSA2026/.gitkeep
+starter.ipynb
+
+# Large Files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# System Files
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
