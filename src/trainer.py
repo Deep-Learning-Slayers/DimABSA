@@ -535,7 +535,7 @@ class DimABSATrainer:
     def load_checkpoint(self, path: Union[str, Path]):
         """Load model checkpoint."""
         path = Path(path)
-        checkpoint = torch.load(path, map_location=self.device)
+        checkpoint = torch.load(path, map_location=self.device, weights_only=False)
 
         self.model.load_state_dict(checkpoint['model_state_dict'])
 
